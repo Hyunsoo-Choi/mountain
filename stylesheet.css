@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+/**********
+  Header
+**********/
+
+html {
+  background-color: #ecf0f1;
+}
+
+.header-wrapper {
+  height: 300px;
+} 
+
+.cloud {
+  -webkit-transform: scaleX(3); 
+  -moz-transform: scaleX(3);
+  height: 100%;
+  width: 100%;
+}
+
+.nav-wrapper {
+  height: 40px;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 10px 30px 30px;
+  color: #3498db;
+}
+
