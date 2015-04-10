@@ -2,20 +2,42 @@
   margin: 0;
 }
 
-a {
-  text-decoration: none;
+.login a p:hover {
+  border-bottom: dotted #3FA7D6 medium;
 }
 
 nav a:hover {
-  color: #59CD90;
-  border-bottom: dotted #59CD90 medium;
+  border-bottom: dotted #FAC05E medium;
 }
+
+
+/**********
+  Logo
+**********/
+
+.logo {
+  background: url('img/logo.svg') center no-repeat;
+  float: left;
+  width: 80px;
+  height: 80px;
+  background-size: 550px;
+  margin-left: 30px;
+}
+
+.logo h3 {
+  font-family: 'Bree Serif', serif;
+  margin-left: 80px;
+  margin-top: 33px;
+  color: rgba(1,0,0,0.5);
+}
+
 /**********
   Header
 **********/
 
+
 .header-wrapper {
-  background-color: #ED5A47;
+  background-color: #FAC05E;
   background-size: 100% 100%;
   width: 100%;
   height: 80px;
@@ -33,7 +55,7 @@ nav a:hover {
   font-family: sans-serif;
   color: white;
   padding: 8px 15px;
-  background-color: #59CD90;
+  background-color: #3FA7D6;
   text-transform: uppercase;
 }
 
@@ -52,6 +74,11 @@ nav a:hover {
   text-transform: uppercase;
 }
 
+.signup a,
+.login a {
+  text-decoration: none;
+}
+
 /*********
   Nav
 ********/
@@ -61,14 +88,13 @@ nav a:hover {
   width: 100%;
   display: inline-block;
   text-align: center;
-  /*border-bottom: solid #F79D84 medium;*/
 }
 
 nav ul li {
   text-decoration: none;
   display: inline-block;
-  padding: 40px 10px 0px 20px;
-  color: #F79D84;
+  padding: 40px 40px 0px 20px;
+  color: #3FA7D6;
   font-family: sans-serif;
   text-transform: uppercase;
 }
@@ -76,8 +102,15 @@ nav ul li {
 /*********
 Section
 ********/
- section {
-  width: 100%;
-  height: 400px;
-  background-color: #59CD90;
- }
+section {
+  height: 500px;
+  background: url('img/design.jpg') center center no-repeat;
+  background-size: 100% 100%;
+}
+
+.welcome {
+  text-align: center;
+}
+
+
+
