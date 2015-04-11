@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
 * {
   margin: 0;
+  font-family: 'Bree Serif', serif;
 }
 
 .login a p:hover {
@@ -27,7 +30,7 @@ nav a:hover {
 .logo h3 {
   font-family: 'Bree Serif', serif;
   margin-left: 80px;
-  margin-top: 33px;
+  margin-top: 30px;
   color: rgba(1,0,0,0.5);
 }
 
@@ -37,7 +40,7 @@ nav a:hover {
 
 
 .header-wrapper {
-  background-color: #FAC05E;
+  background-color: #A1E8CC;
   background-size: 100% 100%;
   width: 100%;
   height: 80px;
@@ -52,7 +55,6 @@ nav a:hover {
 
 .signup p {
   font-size: 1em;
-  font-family: sans-serif;
   color: white;
   padding: 8px 15px;
   background-color: #3FA7D6;
@@ -68,7 +70,6 @@ nav a:hover {
 
 .login p {
   font-size: 1em;
-  font-family: sans-serif;
   color: white;
   padding: 8px 15px;
   text-transform: uppercase;
@@ -94,22 +95,85 @@ nav ul li {
   text-decoration: none;
   display: inline-block;
   padding: 40px 40px 0px 20px;
-  color: #3FA7D6;
-  font-family: sans-serif;
+  color: #495159;
   text-transform: uppercase;
 }
 
 /*********
 Section
 ********/
-section {
+section { 
   height: 500px;
   background: url('img/design.jpg') center center no-repeat;
   background-size: 100% 100%;
+  text-align: center;
 }
 
 .welcome {
+  margin-left: 225px;
+  margin-top: 180px;
+  display: inline-block;
+  color: white;
+  font-size: 4em;
+  font-family: 'Bree Serif', sans-serif;
+}
+
+.indent {
+  text-indent: 100px;
+}
+
+/*********
+  How
+********/
+
+.work-box {
   text-align: center;
+}
+
+.box {
+  margin-top: 30px;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: 250px;
+  background-color: #495159;
+  border: solid #A1E8CC thick;
+}
+
+.idea {
+  height: 100%;
+  background: url('img/idea.svg') center no-repeat;
+  background-size: contain;
+  margin-top: -50px;
+}
+
+.idea p {
+  padding-top: 70%;
+  color: white;
+}
+
+.scatch {
+  height: 100%;
+  background: url('img/scatch.svg') center no-repeat;
+  background-size: contain;
+  margin-top: -50px;
+}
+
+.scatch p {
+  padding-top: 70%;
+  color: white;
+}
+
+.launch {
+  height: 100%;
+  background: url('img/launch.svg') center no-repeat;
+  background-size: contain;
+  margin-top: -50px;
+}
+
+.launch p {
+  padding-top: 70%;
+  color: white;
 }
 
 
