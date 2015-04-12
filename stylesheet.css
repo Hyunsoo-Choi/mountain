@@ -3,6 +3,10 @@
 * {
   margin: 0;
   font-family: 'Bree Serif', serif;
+  text-align: center;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .login a p:hover {
@@ -13,10 +17,15 @@ nav a:hover {
   border-bottom: dotted #FAC05E medium;
 }
 
+.box:hover {
+  background-color: #3FA7D6
+}
+
 
 /**********
   Logo
 **********/
+
 
 .logo {
   background: url('img/logo.svg') center no-repeat;
@@ -91,6 +100,10 @@ nav a:hover {
   text-align: center;
 }
 
+nav ul a {
+  text-decoration: none;
+  color: #495159;
+}
 nav ul li {
   text-decoration: none;
   display: inline-block;
@@ -123,7 +136,7 @@ section {
 }
 
 /*********
-  How
+  How Does it work?
 ********/
 
 .work-box {
@@ -132,6 +145,7 @@ section {
 
 .box {
   margin-top: 30px;
+  margin-right: 10px;
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -175,6 +189,31 @@ section {
   padding-top: 70%;
   color: white;
 }
+
+/*********
+ Pricing
+********/
+
+.pricing {
+  width: 100%;
+  height: 350px;
+  padding-top: 300px;
+  background-color: #ecf0f1;
+}
+
+.price-box {
+  width: 30%;
+  height: 100%;
+  border: red solid thick;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+
+
+
+
 
 
 
