@@ -18,7 +18,7 @@ nav a:hover {
 }
 
 .box:hover {
-  background-color: #3FA7D6
+  background-color: #EE6352
 }
 
 
@@ -96,19 +96,19 @@ nav a:hover {
 .nav-wrapper {
   height: 80px;
   width: 100%;
-  display: inline-block;
   text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  position: fixed;
 }
 
 nav ul a {
   text-decoration: none;
-  color: #495159;
+  color: white;
 }
 nav ul li {
   text-decoration: none;
   display: inline-block;
-  padding: 40px 40px 0px 20px;
-  color: #495159;
+  padding: 30px 40px 0px 20px;
   text-transform: uppercase;
 }
 
@@ -141,7 +141,27 @@ section {
 
 .work-box {
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 300px;
+  background-color: #68B3D6;
 }
+
+.how-text {
+  position: relative;
+  top: -100px;
+  border: solid white thick;
+  display: block;
+  width: 400px;
+  height: 100px;
+}
+
+.how-text h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2em;
+  margin-top: 25px;
+}
+
 
 .box {
   margin-top: 30px;
@@ -151,7 +171,7 @@ section {
   width: 30%;
   height: 250px;
   background-color: #495159;
-  border: solid #A1E8CC thick;
+  border: solid #EE6352 thick;
 }
 
 .idea {
@@ -197,7 +217,7 @@ section {
 .pricing {
   width: 100%;
   height: 350px;
-  padding-top: 300px;
+  padding-top: 50px;
   background-color: #ecf0f1;
 }
 
@@ -208,9 +228,6 @@ section {
   margin-right: 10px;
   display: inline-block;
 }
-
-
-
 
 
 
